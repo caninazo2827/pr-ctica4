@@ -28,6 +28,6 @@ $text = <<<HTML
 	}
 ?>
 HTML;
-$argv=array("Hola","-h" );
+//$argv=array("Hola","-h" ); --------------->pa' ver si jalaba XD
 make_me_a_controller($argv,$text);
 ?>
